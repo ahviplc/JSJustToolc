@@ -1,0 +1,1 @@
+console.log("welcome!enjoy JSJustToolc!~LC")

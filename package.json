@@ -1,0 +1,46 @@
+{
+  "name": "JSJustToolc",
+  "version": "1.0.0",
+  "description": "❤JSJustToolc > JavaScript Tools For U (You) ❤.",
+  "scripts": {
+    "webpack-build": "npx webpack",
+    "webpack-build-umd": "npx webpack --config webpack.config.js",
+    "webpack-build-umd-development": "npx webpack --config webpack.config.js --mode development",
+    "webpack-watch": "webpack --watch",
+    "webpack-conf": "webpack --config webpack.config.js",
+    "webpack-serve": "npx webpack serve --open chrome.exe"
+  },
+  "keywords": [
+    "webpack",
+    "demo"
+  ],
+  "author": "LC ahlc@sina.cn",
+  "homepage": "https://gitee.com/ahviplc/JustTypeScript",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "bin": {
+    "JSJustToolc": "test/welcome.js"
+  },
+  "main": "./lib/JSJustToolc.min.js",
+  "module": "./lib/JSJustToolc.js",
+  "browser": "./lib/JSJustToolc.min.js",
+  "files": [
+    "src",
+    "test",
+    "README.md",
+    "webpack.config.js",
+    "package.json",
+    "dist",
+    "lib",
+    "docs"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
